@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>Выпейте прохладную кружечку с
+ пивом и поддержите сборную Украины по футболу!</h1>
+
+<img id="myImage" onclick="changeImage()" src="images/beers_1.jpg">
+<script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("beers_2")) {
+                image.src = "images/beers_1.jpg";
+            } else {
+        image.src = "images/beers_2.jpg";
+    }
+}        
+</script>
+</body>
+</html>

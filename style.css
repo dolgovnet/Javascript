@@ -1,8 +1,10 @@
 h1{
-    color: red;
+    color: #1e36bf;
     text-align: center;
 }
 
 #myImage {
     cursor: pointer;
+    position: absolute;
+    left: 45%;
 }
